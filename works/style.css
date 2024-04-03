@@ -1,0 +1,98 @@
+/* #region header */
+header {
+  position: unset;
+}
+
+.line-header {
+  margin-top: 10px;
+  opacity: 0.5;
+  height: 1px;
+  background: grey;
+}
+
+/* #endregion */
+
+/* #region main */
+.grid-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: 364px;
+  grid-gap: 30px;
+}
+
+.box2 {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.box4,
+.box6 {
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.box1,
+.box3,
+.box5 {
+  height: 364px;
+}
+
+.box2,
+.box4,
+.box6 {
+  height: 590px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn a:hover {
+  color: #111;
+}
+
+.btn {
+  background-color: #111;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  margin: 50px 0;
+  padding: 5px 30px;
+}
+
+.btn:hover {
+  color: #111;
+  background-color: white;
+  border: 1px grey solid;
+}
+
+/* знизу балуюсь з каруселями */
+/* .carousel-dark .carousel-indicators [data-target] {
+  font-size: xx-large;
+  /* width: 10px;
+  height: 10px;
+  padding-left: 300px;
+  margin: 0 auto 50px auto;
+  border: none;
+  position: absolute;
+  top: 0;
+  left: S50; */
+/* right: inherit; */
+/* margin-right: auto; */
+/* display: block !important; */
+/* position: unset !important; */
+/* visibility: hidden; */
+
+
+.carousel-inner {
+  padding-top: 50px;
+}
+
+.carousel-indicators {
+  top: 0;
+}
+
+/*#endregion*/

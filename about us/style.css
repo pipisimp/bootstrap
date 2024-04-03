@@ -1,0 +1,287 @@
+.btn:hover {
+  color: white;
+  background-color: grey;
+}
+
+/* #region about-us */
+.about-us .row {
+  gap: 100px;
+  margin-top: 10px;
+}
+
+.about-us-img {
+  height: 560px;
+  width: 560px;
+}
+
+.about-us .row .col p {
+  opacity: 0.7;
+  font-size: 22px;
+}
+
+.about-us .row:nth-child(1) .col:nth-child(2):before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 40px;
+  background: black;
+  margin-bottom: 40px;
+}
+
+.about-us .row .col h2 {
+  padding: 0 30px;
+  /* white-space: pre; */
+  font-weight: 700;
+}
+
+.about-us .row .col h2::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 40px;
+  background: black;
+  margin: 40px 0 20px 0;
+}
+
+.about-us-btn {
+  margin-top: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid grey;
+  padding: 5px 30px;
+}
+
+.line-about-us {
+  margin: 40px 0 50px 0;
+  height: 1px;
+  background-color: grey;
+  opacity: 0.5;
+}
+
+/* #endregion*/
+
+/* #region statistic*/
+.statistic {
+  margin-bottom: 50px;
+}
+
+.statistic .row .col-4 h3 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.statistic .row .col-4 h3::after {
+  margin: 5px auto 5px auto;
+  content: "";
+  display: block;
+  height: 2px;
+  background-color: #111;
+  width: 40px;
+  border-radius: 10px;
+}
+
+.statistic .row .col-4 p {
+  text-align: center;
+}
+
+/* #endregion */
+
+/* #region carusele-image*/
+/*це кружочки навігації знизу*/
+.carousel-dark .carousel-indicators [data-bs-target] {
+  border: 2px solid black;
+  margin-top: 30px;
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: bisque;
+}
+
+@media screen and (max-width: 770px) {
+  .carousel-dark .carousel-indicators [data-bs-target] {
+    visibility: hidden;
+  }
+}
+
+.carousel-indicators .active {
+  background-color: #111 !important;
+}
+
+.carusele-image .carousel-inner .carousel-item .container img {
+  margin-top: 30px;
+  /* width: 40%;
+  height: 40%; */
+  width: 168px;
+  height: 168px;
+  border-radius: 50%;
+}
+
+.carousel-item p {
+  padding: 0;
+  margin: 0;
+  margin: 20px 0 80px 0;
+}
+
+.carusele-image .best-team {
+  font-weight: 100;
+  padding-top: 50px;
+  font-size: 70px;
+  letter-spacing: 2px;
+}
+
+.col h3::after {
+  text-align: center;
+  content: '';
+  display: block;
+  width: 20%;
+  height: 3px;
+  background-color: #111;
+  margin-left: 40%;
+  margin-top: 10px;
+  border-radius: 40px;
+}
+
+.carusele-image {
+  background-color: bisque;
+  text-align: center;
+  height: max-content;
+  padding-bottom: 100px;
+}
+
+/*#endregion*/
+/* #region instagram*/
+.instagram {
+  padding: 0 20px 0 20px;
+}
+
+.instagram-btn {
+  font-size: 18px;
+  margin-top: 40px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid grey;
+  padding: 5px 50px;
+}
+
+.instagram .row .col {
+  width: 268px;
+  height: 268px;
+}
+
+/* #endregion */
+/* #region form */
+form {
+  background-color: #111;
+  color: aliceblue;
+  margin-top: 100px;
+  height: max-content;
+}
+
+form .container h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+form .container .row {
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  border: none;
+  width: 100px;
+  padding-right: 40px;
+  border-bottom: 2px solid black;
+
+}
+
+.input-group input[type=text],
+input[type=email] {
+  color: white;
+  background-color: #111 !important;
+  padding-left: 0;
+  padding-bottom: 15px;
+}
+
+.input-group input:focus {
+  border-bottom: 1px solid white;
+  /* background-color: #111; */
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.input-group .form-control {
+  border-color: whitesmoke;
+  border-radius: 0;
+  opacity: 0.7;
+  transition: none;
+}
+
+.input-group input::placeholder {
+  color: white;
+  /* opacity: 0.7; */
+}
+
+.col-for-icon-footer {
+  display: flex;
+  gap: 20px;
+}
+
+.iconL {
+  /* font-size: 20px; */
+  width: 40px;
+  height: 40px;
+  border-radius: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  gap: 10px;
+}
+
+.iconL i {
+  font-size: 25px;
+
+  padding: 2px;
+  color: #111;
+}
+
+.form-text-footer {
+  font-weight: 600;
+}
+
+.btn-footer-form {
+  background-color: white;
+  font-weight: 500;
+  margin: 30px 0 70px 0;
+  border-radius: 20px;
+  padding: 5px 30px;
+}
+
+.btn-footer-form:hover {
+  border: 2px solid grey;
+}
+
+.end-page {
+  padding: 20px 0 20px 0;
+}
+
+.end-page .row .col h4 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.end-page .row .col p {
+  font-size: 16px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+/* #endregion */
